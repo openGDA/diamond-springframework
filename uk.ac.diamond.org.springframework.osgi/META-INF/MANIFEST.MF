@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Springframework OSGI 1.2.1
+Bundle-SymbolicName: uk.ac.diamond.org.springframework.osgi
+Bundle-Version: 1.2.1
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-BuddyPolicy: registered
+Bundle-ClassPath: jars/org.springframework.osgi.core-1.2.1.jar,
+ jars/org.springframework.osgi.io-1.2.1.jar,
+ .
+Import-Package: org.apache.commons.logging,
+ org.slf4j;version="[1.5.6,2.0.0)"
+Export-Package: META-INF,
+ org.springframework.osgi;version="1.2.1",
+ org.springframework.osgi.bundle;version="1.2.1",
+ org.springframework.osgi.compendium.cm;version="1.2.1",
+ org.springframework.osgi.compendium.config;version="1.2.1",
+ org.springframework.osgi.config;version="1.2.1",
+ org.springframework.osgi.context;version="1.2.1",
+ org.springframework.osgi.context.event;version="1.2.1",
+ org.springframework.osgi.context.support;version="1.2.1",
+ org.springframework.osgi.io;version="1.2.1",
+ org.springframework.osgi.service;version="1.2.1",
+ org.springframework.osgi.service.exporter;version="1.2.1",
+ org.springframework.osgi.service.exporter.support;version="1.2.1",
+ org.springframework.osgi.service.importer;version="1.2.1",
+ org.springframework.osgi.service.importer.event;version="1.2.1",
+ org.springframework.osgi.service.importer.support;version="1.2.1",
+ org.springframework.osgi.util;version="1.2.1"
+Bundle-Vendor: Diamond Light Source
