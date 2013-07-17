@@ -28,3 +28,6 @@ Export-Package: META-INF,
  org.springframework.osgi.service.importer.support;version="1.2.1",
  org.springframework.osgi.util;version="1.2.1"
 Bundle-Vendor: Diamond Light Source
+Require-Bundle: com.springsource.org.aopalliance,
+ uk.ac.diamond.org.springframework,
+ org.eclipse.osgi
