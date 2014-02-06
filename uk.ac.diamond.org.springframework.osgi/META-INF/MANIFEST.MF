@@ -9,7 +9,7 @@ Bundle-ClassPath: jars/org.springframework.osgi.core-1.2.1.jar,
  jars/org.springframework.osgi.io-1.2.1.jar,
  .
 Import-Package: org.apache.commons.logging,
- org.slf4j;version="[1.7.5,1.7.6)"
+ org.slf4j;version="[1.7.6,1.7.7)"
 Export-Package: META-INF,
  org.springframework.osgi;version="1.2.1",
  org.springframework.osgi.bundle;version="1.2.1",
