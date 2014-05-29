@@ -9,6 +9,7 @@
 	<classpathentry exported="true" kind="lib" path="jars/spring-core-3.2.9.RELEASE.jar" sourcepath="jars/spring-core-3.2.9.RELEASE-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="jars/spring-expression-3.2.9.RELEASE.jar" sourcepath="jars/spring-expression-3.2.9.RELEASE-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="jars/spring-jdbc-3.2.9.RELEASE.jar" sourcepath="jars/spring-jdbc-3.2.9.RELEASE-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/spring-jms-3.2.9.RELEASE.jar" sourcepath="jars/spring-jms-3.2.9.RELEASE-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="jars/spring-tx-3.2.9.RELEASE.jar" sourcepath="jars/spring-tx-3.2.9.RELEASE-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="jars/spring-web-3.2.9.RELEASE.jar" sourcepath="jars/spring-web-3.2.9.RELEASE-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
