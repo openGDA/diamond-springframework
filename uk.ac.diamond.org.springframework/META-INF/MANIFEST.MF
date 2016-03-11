@@ -17,7 +17,7 @@ Bundle-ClassPath: jars/spring-aop-4.0.6.RELEASE.jar,
  jars/spring-web-4.0.6.RELEASE.jar,
  .
 Import-Package: org.apache.commons.logging,
- org.slf4j;version="[1.7.6,1.7.7)"
+ org.slf4j;version="[1.7.2,2.0.0)"
 Export-Package: META-INF,
  org.springframework.aop;version="4.0.6.RELEASE";uses:="org.aopalliance.aop,org.aopalliance.intercept,org.springframework.core",
  org.springframework.aop.aspectj;version="4.0.6.RELEASE";
