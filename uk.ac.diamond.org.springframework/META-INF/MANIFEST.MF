@@ -1127,5 +1127,5 @@ Export-Package: META-INF,
    javax.servlet.jsp.el,
    javax.servlet.jsp.tagext,
    org.springframework.util"
-Require-Bundle: com.springsource.org.aopalliance;bundle-version="1.0.0"
+Require-Bundle: org.aopalliance;bundle-version="1.0.0"
 Bundle-Vendor: Diamond Light Source
