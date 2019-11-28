@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Application Persistence Fragment
+Bundle-SymbolicName: uk.ac.diamond.org.springframework.uk.ac.diamond.application.persistence
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Diamond Light Source
+Fragment-Host: uk.ac.diamond.org.springframework;bundle-version="1.0.0"
+Require-Bundle: uk.ac.diamond.daq.application.persistence;bundle-version="1.0.0"
