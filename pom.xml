@@ -16,6 +16,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 <modules>
 <module>uk.ac.diamond.org.springframework</module>
 <module>uk.ac.diamond.org.springframework.fragment.org.eclipse.scanning.device</module>
+<module>uk.ac.diamond.org.springframework.uk.ac.diamond.application.persistence</module>
 </modules>
 </project>
 
