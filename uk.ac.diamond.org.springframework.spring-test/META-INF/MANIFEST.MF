@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Eclipse-BundleShape: dir
+Bundle-ManifestVersion: 2
+Bundle-Name: Spring Test 4.0.6.RELEASE
+Bundle-SymbolicName: uk.ac.diamond.org.springframework.spring-test
+Bundle-Version: 4.0.6.RELEASE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: jars/spring-test-4.0.6.RELEASE.jar,
+ .
+Bundle-Vendor: Diamond Light Source
+Bundle-Readme: This bundle is to wrap spring-test into an OSGi bundle
+ it should be removed once we have moved all of spring to the target
+ platfrom (at this point it will probably be replaced with
+ org.apache.servicemix.bundles.spring-test) see DAQ-325.
+ There is no runtime guarantee that all the clases here
+ will work as Dynamic import package has been used
+ to satisfy its dependencies.
+Export-Package: org.springframework.mock.env,
+ org.springframework.mock.http,
+ org.springframework.mock.http.client,
+ org.springframework.mock.jndi,
+ org.springframework.mock.web,
+ org.springframework.mock.web.portlet,
+ org.springframework.test,
+ org.springframework.test.annotation,
+ org.springframework.test.context,
+ org.springframework.test.context.junit4,
+ org.springframework.test.context.junit4.statements,
+ org.springframework.test.context.support,
+ org.springframework.test.context.testng,
+ org.springframework.test.context.transaction,
+ org.springframework.test.context.web,
+ org.springframework.test.jdbc,
+ org.springframework.test.util,
+ org.springframework.test.web,
+ org.springframework.test.web.client,
+ org.springframework.test.web.client.match,
+ org.springframework.test.web.client.response,
+ org.springframework.test.web.servlet,
+ org.springframework.test.web.servlet.request,
+ org.springframework.test.web.servlet.result,
+ org.springframework.test.web.servlet.setup
+DynamicImport-Package: gda.*;merged=true,
+ uk.ac.diamond.*;merged=true,
+ uk.ac.gda.*;merged=true,
+ *
+ 
