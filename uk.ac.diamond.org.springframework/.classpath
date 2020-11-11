@@ -12,5 +12,6 @@
 	<classpathentry exported="true" kind="lib" path="jars/spring-jms-4.0.6.RELEASE.jar" sourcepath="jars/spring-jms-4.0.6.RELEASE-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="jars/spring-tx-4.0.6.RELEASE.jar" sourcepath="jars/spring-tx-4.0.6.RELEASE-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="jars/spring-web-4.0.6.RELEASE.jar" sourcepath="jars/spring-web-4.0.6.RELEASE-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/spring-webmvc-4.0.6.RELEASE.jar" sourcepath="jars/spring-webmvc-4.0.6.RELEASE-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
